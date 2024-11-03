@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Layout</title>
+  <style>
+    .flex-container {
+        display: flex;
+        background-color: #f1f1f1;
+      }
+      
+      .flex-container > div {
+        background-color: chartreuse;
+        color: white;
+        width: 400px;
+        height:200px;
+        margin: 10px;
+        text-align: center;
+        line-height: 200px;
+        font-size: 50px;
+      }
+      .two-cards {
+        display: flex;
+        background-color: white
+    }
+      .two-cards > div {
+        background-color: blueviolet;
+        color: white;
+        width: 50%;
+        height:200px;
+        margin: 10px;
+        text-align: center;
+        line-height: 200px;
+        font-size: 50px;
+      }
+      
+  </style>
+</head>
+<body>
+
+  
+  <h1 style="text-align: center;">CARD 3</h1>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div> 
+</div>
+
+  
+  <h1 style="text-align: center;">CARD 2</h1>
+
+  <div class="two-cards">
+    <div>1</div>
+    <div>2</div>  
+  </div>
+</body>
+</html>
